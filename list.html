@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character List - Japanese Flashcards</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-gray-100 flex flex-col min-h-screen">
+    <header class="bg-blue-600 p-4 text-white flex justify-between items-center relative">
+        <h1 class="text-2xl font-bold">Japanese Flashcards</h1>
+        <button class="hamburger-menu" id="hamburger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav class="nav-menu" id="nav-menu">
+            <a href="index.html" id="nav-quiz">Quiz</a>
+            <a href="list.html?type=hiragana" id="nav-hiragana-list">Hiragana List</a>
+            <a href="list.html?type=katakana" id="nav-katakana-list">Katakana List</a>
+            <a href="list.html?type=kanji" id="nav-kanji-list">Kanji List</a>
+        </nav>
+    </header>
+
+    <main class="container mx-auto p-4 text-center flex-grow">
+        <h2 id="list-title" class="text-3xl font-bold mb-4"></h2>
+        <div id="list-container"></div>
+    </main>
+
+    <script src="list.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Call the function from list.js to display the correct list
+            displayCharacterList();
+        });
+    </script>
+</body>
+
+</html>

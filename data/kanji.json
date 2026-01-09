@@ -1,0 +1,176 @@
+[
+    {
+        "kanji": "一",
+        "kana": "いち",
+        "meaning": "One",
+        "category": "Numbers"
+    },
+    {
+        "kanji": "二",
+        "kana": "に",
+        "meaning": "Two",
+        "category": "Numbers"
+    },
+    {
+        "kanji": "三",
+        "kana": "さん",
+        "meaning": "Three",
+        "category": "Numbers"
+    },
+    {
+        "kanji": "四",
+        "kana": "し/よん",
+        "meaning": "Four",
+        "category": "Numbers"
+    },
+    {
+        "kanji": "五",
+        "kana": "ご",
+        "meaning": "Five",
+        "category": "Numbers"
+    },
+    {
+        "kanji": "六",
+        "kana": "ろく",
+        "meaning": "Six",
+        "category": "Numbers"
+    },
+    {
+        "kanji": "七",
+        "kana": "しち/なな",
+        "meaning": "Seven",
+        "category": "Numbers"
+    },
+    {
+        "kanji": "八",
+        "kana": "はち",
+        "meaning": "Eight",
+        "category": "Numbers"
+    },
+    {
+        "kanji": "九",
+        "kana": "きゅう/く",
+        "meaning": "Nine",
+        "category": "Numbers"
+    },
+    {
+        "kanji": "十",
+        "kana": "じゅう",
+        "meaning": "Ten",
+        "category": "Numbers"
+    },
+    {
+        "kanji": "百",
+        "kana": "ひゃく",
+        "meaning": "Hundred",
+        "category": "Numbers"
+    },
+    {
+        "kanji": "千",
+        "kana": "せん",
+        "meaning": "Thousand",
+        "category": "Numbers"
+    },
+    {
+        "kanji": "日",
+        "kana": "にち/ひ/び",
+        "meaning": "Day, Sun",
+        "category": "Time"
+    },
+    {
+        "kanji": "月",
+        "kana": "げつ/つき",
+        "meaning": "Month, Moon",
+        "category": "Time"
+    },
+    {
+        "kanji": "火",
+        "kana": "か/ひ",
+        "meaning": "Fire",
+        "category": "Others"
+    },
+    {
+        "kanji": "水",
+        "kana": "すい/みず",
+        "meaning": "Water",
+        "category": "Others"
+    },
+    {
+        "kanji": "木",
+        "kana": "もく/き",
+        "meaning": "Tree, Wood",
+        "category": "Others"
+    },
+    {
+        "kanji": "金",
+        "kana": "きん/かね",
+        "meaning": "Gold, Money",
+        "category": "Others"
+    },
+    {
+        "kanji": "土",
+        "kana": "ど/つち",
+        "meaning": "Earth, Soil",
+        "category": "Others"
+    },
+    {
+        "kanji": "人",
+        "kana": "ひと",
+        "meaning": "Person",
+        "category": "Basic Words"
+    },
+    {
+        "kanji": "本",
+        "kana": "ほん",
+        "meaning": "Book",
+        "category": "Basic Words"
+    },
+    {
+        "kanji": "語",
+        "kana": "ご",
+        "meaning": "Language",
+        "category": "Basic Words"
+    },
+    {
+        "kanji": "学",
+        "kana": "がく",
+        "meaning": "Study",
+        "category": "Basic Words"
+    },
+    {
+        "kanji": "生",
+        "kana": "せい",
+        "meaning": "Life, Birth",
+        "category": "Basic Words"
+    },
+    {
+        "kanji": "父",
+        "kana": "ちち",
+        "meaning": "Father",
+        "category": "Family"
+    },
+    {
+        "kanji": "母",
+        "kana": "はは",
+        "meaning": "Mother",
+        "category": "Family"
+    },
+    {
+        "kanji": "子",
+        "kana": "こ",
+        "meaning": "Child",
+        "category": "Family"
+    },
+    {
+        "kanji": "犬",
+        "kana": "いぬ",
+        "meaning": "Dog",
+        "category": "Animals"
+    },
+    {
+        "kanji": "猫",
+        "kana": "ねこ",
+        "meaning": "Cat",
+        "category": "Animals"
+    }
+]

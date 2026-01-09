@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japanese Flashcards</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-gray-100 flex flex-col min-h-screen">
+    <header class="bg-blue-600 p-4 text-white flex justify-between items-center relative">
+        <h1 class="text-2xl font-bold">Japanese Flashcards</h1>
+        <button class="hamburger-menu" id="hamburger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav class="nav-menu" id="nav-menu">
+            <a href="index.html" id="nav-quiz">Quiz</a>
+            <a href="list.html?type=hiragana" id="nav-hiragana-list">Hiragana List</a>
+            <a href="list.html?type=katakana" id="nav-katakana-list">Katakana List</a>
+            <a href="list.html?type=kanji" id="nav-kanji-list">Kanji List</a>
+        </nav>
+    </header>
+
+    <main class="container mx-auto p-4 text-center flex-grow">
+        <div id="quiz-section">
+            <div id="setup" class="mb-8">
+                <h2 class="text-2xl mb-4">Choose your quiz:</h2>
+                <div class="flex justify-center gap-4 mb-4">
+                    <label class="flex items-center gap-2">
+                        <input type="checkbox" id="hiragana-checkbox" value="hiragana" checked>
+                        Hiragana
+                    </label>
+                    <label class="flex items-center gap-2">
+                        <input type="checkbox" id="katakana-checkbox" value="katakana">
+                        Katakana
+                    </label>
+                    <label class="flex items-center gap-2">
+                        <input type="checkbox" id="kanji-checkbox" value="kanji">
+                        Kanji
+                    </label>
+                </div>
+                <div class="mb-4">
+                    <label for="quiz-limit" class="block text-lg mb-2">Quiz Length (multiples of 10):</label>
+                    <input type="number" id="quiz-limit" class="border p-2 rounded w-32 text-center" value="10" min="10"
+                        step="10">
+                </div>
+                <button id="start-quiz" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                    Start Quiz
+                </button>
+            </div>
+
+            <div id="quiz" class="hidden">
+                <div id="card"
+                    class="bg-white p-8 rounded-lg shadow-lg w-64 h-40 mx-auto mb-4 flex items-center justify-center text-6xl">
+                </div>
+                <input type="text" id="answer-input" class="border p-2 rounded w-64 text-center"
+                    placeholder="Your answer">
+                <button id="submit-answer"
+                    class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded ml-2">
+                    Submit
+                </button>
+                <div id="feedback" class="mt-4 text-xl"></div>
+                <div id="score" class="mt-4 text-lg">
+                    Correct: <span id="correct-count">0</span> | Wrong: <span id="wrong-count">0</span>
+                </div>
+            </div>
+
+            <div id="results" class="hidden">
+                <h2 class="text-2xl mb-4">Quiz Complete!</h2>
+                <p class="text-lg">Final Score:</p>
+                <p>Correct: <span id="final-correct"></span></p>
+                <p>Wrong: <span id="final-wrong"></span></p>
+                <div id="wrong-answers-list" class="mt-4 text-left mx-auto max-w-md">
+                    <h3 class="text-xl font-semibold mb-2">Incorrectly Answered:</h3>
+                    <ul id="wrong-answers-ul" class="list-disc list-inside"></ul>
+                </div>
+                <button id="restart-quiz"
+                    class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4">
+                    Restart Quiz
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
