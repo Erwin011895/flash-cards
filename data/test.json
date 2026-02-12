@@ -1,0 +1,302 @@
+[
+    {
+        "kanji": "私",
+        "kana": "わたし",
+        "english": "I (polite)"
+    },
+    {
+        "kanji": "俺",
+        "kana": "おれ",
+        "english": "I (male, casual)"
+    },
+    {
+        "kanji": "僕",
+        "kana": "ぼく",
+        "english": "I (male, polite)"
+    },
+    {
+        "kanji": "お前",
+        "kana": "おまえ",
+        "english": "You (male, casual)"
+    },
+    {
+        "kanji": "貴方",
+        "kana": "あなた",
+        "english": "You (polite)"
+    },
+    {
+        "kanji": "手前",
+        "kana": "てめ",
+        "english": "You (rude)"
+    },
+    {
+        "kanji": "君",
+        "kana": "きみ",
+        "english": "You"
+    },
+    {
+        "kanji": "人",
+        "kana": "ひと",
+        "english": "Person"
+    },
+    {
+        "kanji": "方",
+        "kana": "かた",
+        "english": "Person (polite)"
+    },
+    {
+        "kanji": "誰",
+        "kana": "だれ",
+        "english": "Who"
+    },
+    {
+        "kanji": "語",
+        "kana": "ご",
+        "english": "Language"
+    },
+    {
+        "kanji": "英語",
+        "kana": "えいご",
+        "english": "English language"
+    },
+    {
+        "kanji": "韓国",
+        "kana": "かんこく",
+        "english": "Korea"
+    },
+    {
+        "kanji": "中国",
+        "kana": "ちゅうごく",
+        "english": "China"
+    },
+    {
+        "kanji": "日本",
+        "kana": "にほん",
+        "english": "Japan"
+    },
+    {
+        "kanji": "先生",
+        "kana": "せんせい",
+        "english": "Teacher / doctor"
+    },
+    {
+        "kanji": "生徒",
+        "kana": "せいと",
+        "english": "Student (pupil)"
+    },
+    {
+        "kanji": "教師",
+        "kana": "きょうし",
+        "english": "Teacher (instructor)"
+    },
+    {
+        "kanji": "学校",
+        "kana": "がっこう",
+        "english": "School"
+    },
+    {
+        "kanji": "医者",
+        "kana": "いしゃ",
+        "english": "Doctor"
+    },
+    {
+        "kanji": "病院",
+        "kana": "びょういん",
+        "english": "Hospital"
+    },
+    {
+        "kanji": "美容院",
+        "kana": "びよういん",
+        "english": "Beauty salon"
+    },
+    {
+        "kanji": "学生",
+        "kana": "がくせい",
+        "english": "Student"
+    },
+    {
+        "kanji": "小学生",
+        "kana": "しょうがくせい",
+        "english": "Elementary school student"
+    },
+    {
+        "kanji": "中学生",
+        "kana": "ちゅうがくせい",
+        "english": "Junior high school student"
+    },
+    {
+        "kanji": "高校生",
+        "kana": "こうこうせい",
+        "english": "High school student"
+    },
+    {
+        "kanji": "大学生",
+        "kana": "だいがくせい",
+        "english": "University student"
+    },
+    {
+        "kanji": "小学校",
+        "kana": "しょうがっこう",
+        "english": "Elementary school"
+    },
+    {
+        "kanji": "中学校",
+        "kana": "ちゅうがっこう",
+        "english": "Junior high school"
+    },
+    {
+        "kanji": "高等学校",
+        "kana": "こうとうがっこう",
+        "english": "High school"
+    },
+    {
+        "kanji": "高校",
+        "kana": "こうこう",
+        "english": "High school (abbreviation)"
+    },
+    {
+        "kanji": "大学",
+        "kana": "だいがく",
+        "english": "University"
+    },
+    {
+        "kanji": "会社員",
+        "kana": "かいしゃいん",
+        "english": "Company employee"
+    },
+    {
+        "kanji": "会社",
+        "kana": "かいしゃ",
+        "english": "Company"
+    },
+    {
+        "kanji": "員",
+        "kana": "いん",
+        "english": "Member / staff"
+    },
+    {
+        "kanji": "社員",
+        "kana": "しゃいん",
+        "english": "Company employee"
+    },
+    {
+        "kanji": "銀行員",
+        "kana": "ぎんこういん",
+        "english": "Bank employee"
+    },
+    {
+        "kanji": "銀行",
+        "kana": "ぎんこう",
+        "english": "Bank"
+    },
+    {
+        "kanji": "店員",
+        "kana": "てんいん",
+        "english": "Shop employee"
+    },
+    {
+        "kanji": "研究者",
+        "kana": "けんきゅうしゃ",
+        "english": "Researcher"
+    },
+    {
+        "kanji": "研究",
+        "kana": "けんきゅう",
+        "english": "Research"
+    },
+    {
+        "kanji": "者",
+        "kana": "しゃ",
+        "english": "Person (suffix)"
+    },
+    {
+        "kanji": "歳",
+        "kana": "さい",
+        "english": "Years old"
+    },
+    {
+        "kanji": "何歳",
+        "kana": "なんさい",
+        "english": "How old"
+    },
+    {
+        "kanji": "練習",
+        "kana": "れんしゅう",
+        "english": "Practice"
+    },
+    {
+        "kanji": "初",
+        "kana": "はじ",
+        "english": "First / beginning"
+    },
+    {
+        "kanji": "出身",
+        "kana": "しゅっしん",
+        "english": "Hometown / origin"
+    },
+    {
+        "kanji": "願",
+        "kana": "ねが",
+        "english": "Wish / request"
+    },
+    {
+        "kanji": "失礼",
+        "kana": "しつれい",
+        "english": "Rude / excuse me"
+    },
+    {
+        "kanji": "名前",
+        "kana": "なまえ",
+        "english": "Name"
+    },
+    {
+        "kanji": "電気",
+        "kana": "でんき",
+        "english": "Electricity"
+    },
+    {
+        "kanji": "神戸",
+        "kana": "こうべ",
+        "english": "Kobe (place name)"
+    },
+    {
+        "kanji": "桜",
+        "kana": "さくら",
+        "english": "Cherry blossom"
+    },
+    {
+        "kanji": "富士",
+        "kana": "ふじ",
+        "english": "Fuji (Mt. Fuji)"
+    },
+    {
+        "kanji": "問題",
+        "kana": "もんだい",
+        "english": "Problem / question"
+    },
+    {
+        "kanji": "会話",
+        "kana": "かいわ",
+        "english": "Conversation"
+    },
+    {
+        "kanji": "成人式",
+        "kana": "せいじんしき",
+        "english": "Coming-of-age ceremony"
+    },
+    {
+        "kanji": "文型",
+        "kana": "ぶんけい",
+        "english": "Sentence pattern"
+    },
+    {
+        "kanji": "例文",
+        "kana": "れいぶん",
+        "english": "Example sentence"
+    },
+    {
+        "kanji": "第一課",
+        "kana": "だいいっか",
+        "english": "Lesson 1"
+    }
+]

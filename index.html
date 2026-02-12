@@ -22,6 +22,7 @@
             <a href="list.html?type=hiragana" id="nav-hiragana-list">Hiragana List</a>
             <a href="list.html?type=katakana" id="nav-katakana-list">Katakana List</a>
             <a href="list.html?type=kanji" id="nav-kanji-list">Kanji List</a>
+            <a href="multiple-choice.html?quiz=N5-Lesson-01a" id="nav-n5-quiz">N5-Lesson-01a Quiz</a>
         </nav>
     </header>
 
@@ -81,6 +82,49 @@
                 <button id="restart-quiz"
                     class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4">
                     Restart Quiz
+                </button>
+            </div>
+        </div>
+
+        <!-- N5 Quiz Section -->
+        <div id="n5-quiz-section" class="hidden">
+            <div id="n5-setup" class="mb-8">
+                <h2 class="text-2xl mb-4">N5 Multiple Choice Quiz</h2>
+                <button id="start-n5-quiz" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                    Start N5 Quiz
+                </button>
+            </div>
+
+            <div id="n5-quiz" class="hidden">
+                <div id="n5-question-card"
+                    class="bg-white p-8 rounded-lg shadow-lg w-64 h-40 mx-auto mb-4 flex flex-col items-center justify-center">
+                    <div id="n5-kanji" class="text-4xl font-bold"></div>
+                    <div id="n5-kana" class="text-lg"></div>
+                </div>
+                <div id="n5-options" class="grid grid-cols-2 gap-4 max-w-md mx-auto">
+                    <button class="n5-option-btn bg-gray-200 hover:bg-gray-300 p-4 rounded-lg shadow"></button>
+                    <button class="n5-option-btn bg-gray-200 hover:bg-gray-300 p-4 rounded-lg shadow"></button>
+                    <button class="n5-option-btn bg-gray-200 hover:bg-gray-300 p-4 rounded-lg shadow"></button>
+                    <button class="n5-option-btn bg-gray-200 hover:bg-gray-300 p-4 rounded-lg shadow"></button>
+                </div>
+                <div id="n5-feedback" class="mt-4 text-xl"></div>
+                <div id="n5-score" class="mt-4 text-lg">
+                    Correct: <span id="n5-correct-count">0</span> | Wrong: <span id="n5-wrong-count">0</span>
+                </div>
+            </div>
+
+            <div id="n5-results" class="hidden">
+                <h2 class="text-2xl mb-4">N5 Quiz Complete!</h2>
+                <p class="text-lg">Final Score:</p>
+                <p>Correct: <span id="n5-final-correct"></span></p>
+                <p>Wrong: <span id="n5-final-wrong"></span></p>
+                <div id="n5-wrong-answers-list" class="mt-4 text-left mx-auto max-w-md">
+                    <h3 class="text-xl font-semibold mb-2">Incorrectly Answered:</h3>
+                    <ul id="n5-wrong-answers-ul" class="list-disc list-inside"></ul>
+                </div>
+                <button id="restart-n5-quiz"
+                    class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4">
+                    Restart N5 Quiz
                 </button>
             </div>
         </div>
