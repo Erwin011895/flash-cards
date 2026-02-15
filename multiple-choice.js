@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const showKanaCheckbox = document.getElementById('show-kana-checkbox');
     const startQuizButton = document.getElementById('start-quiz-button');
     const quizContainer = document.getElementById('quiz-container');
+    const maxQuestionsDisplay = document.getElementById('max-questions-display');
 
     let quizData = [];
     let shuffledQuizData = []; // To store shuffled questions
@@ -28,12 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
         questionNumberDisplay.textContent = '';
         feedbackDisplay.textContent = message;
         nextButton.textContent = 'Reload Page';
-        nextButton.onclick = () => {
-            quizContainer.style.display = 'none';
-            quizSetupForm.style.display = 'block';
-            feedbackDisplay.textContent = ''; // Clear feedback
-            nextButton.style.display = 'none'; // Hide the reload button
-        };
+        nextButton.onclick = () => location.reload();
         nextButton.style.display = 'block';
     }
 
@@ -83,6 +79,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Set default number of questions in the form
             numQuestionsInput.value = Math.min(quizData.length, 10); // Default to max 10 questions or available questions
+            numQuestionsInput.max = quizData.length; // Set the max attribute to the total number of questions
+            maxQuestionsDisplay.textContent = `(Max: ${quizData.length})`;
 
             quizSetupForm.style.display = 'block';
             quizContainer.style.display = 'none';
@@ -100,8 +98,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function initializeQuiz(length, displayKana) {
         showKana = displayKana; // Update the global showKana variable
-        quizData = quizData.slice(0, length); // Limit to selected number of questions
-        shuffledQuizData = shuffleArray([...quizData]); // Always shuffle the full data first
+        let questionsToUse = [...quizData]; // Start with a fresh copy of all quiz data
+
+        if (length > 0 && length <= questionsToUse.length) {
+            questionsToUse = questionsToUse.slice(0, length); // Slice first
+        }
+        // If length is invalid or not specified, questionsToUse remains the full quizData (or sliced if valid)
+
+        shuffledQuizData = shuffleArray(questionsToUse); // Then shuffle the (potentially sliced) data
 
         quizSetupForm.style.display = 'none';
         quizContainer.style.display = 'block';
@@ -207,7 +211,7 @@ document.addEventListener('DOMContentLoaded', () => {
         nextButton.textContent = 'Restart Quiz';
         nextButton.style.display = 'block';
         nextButton.onclick = () => {
-            location.reload(); // Refresh the page to reset the quiz
+            location.reload(); // Reload the page to restart the quiz
         };
 
         const incorrectAnswers = quizResults.filter(result => !result.isCorrect);
